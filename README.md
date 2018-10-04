@@ -79,10 +79,10 @@ Min Time and Max Time specifies time of effect from a note.
  and uhhh some other stuff I probably forgot. I can't wait to make 50 commits to the repo just to update this h\*cking readme.
 
 ## Future plans
-Overhaul box select.
-Metronome
-Hitsounds only on one color
-Bad pattern detection
-Timing Track
-Lightmap Integration
-Bookmarks for collaborations 
+* Overhaul box select.
+* Metronome
+* Hitsounds only on one color
+* Bad pattern detection
+* Timing Track
+* Lightmap Integration
+* Bookmarks for collaborations 
