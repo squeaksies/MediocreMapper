@@ -43,12 +43,13 @@ Min Time and Max Time specifies time of effect from a note.
 
  
 ## Hotkey additions and control changes
- * WASD for lighting controls
+ * WASDF for lighting controls
  * Alt + WASD to edit hovered events
  * Alt + scrollwheel to change hovered laser speeds
  * Ctrl + Z for undo (undoes anything)
  * Walls are now placed with two left clicks
  * Shift + scroll for direction changes removed
+    * **use WASDF or numpad to rotate notes**
  * shift + middle click to quick delete
  * Delete deletes all selected blocks
  * Arrow keys can move events
