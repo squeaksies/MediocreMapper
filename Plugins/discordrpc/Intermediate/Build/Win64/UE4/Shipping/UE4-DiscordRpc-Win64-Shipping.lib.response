@@ -1,0 +1,9 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/LTCG
+"E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4\Shipping\DiscordRpc\Module.DiscordRpc.cpp.obj"
+"E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4\Shipping\DiscordRpc\Module.DiscordRpc.gen.cpp.obj"
+"E:\Documents\Unreal Projects\MediocreMapper\Intermediate\Build\Win64\UE4\Shipping\DiscordRpc\PCLaunch.rc.res"
+/OUT:"E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Binaries\Win64\UE4-DiscordRpc-Win64-Shipping.lib"
