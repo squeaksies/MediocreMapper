@@ -2,6 +2,31 @@
 ![alt text](https://i.imgur.com/zimA0I6.png)
 This is a fork of [EditSaberEnhanced by permissionBRICK](https://github.com/permissionBRICK/EditSaberEnhanced) which is a fork of  [EditSaber by Ikeiwa](https://github.com/Ikeiwa/EditSaber). Previously assisting with EditSaberEnhanced, I made this mediocre thing as a set of feature additions on EditSaberEnanced.
 
+## Next up:
+ * Multiplayer
+ * Bookmarks
+ * BPM/Offset Tapper
+ * Metronome
+
+## Update Mk2:
+ * Performance update: Number of notes/events/length of song no longer/lightly plays a role in performance
+ * Ctrl + click selection overhauled to box select
+ * Alt + scroll to adjust wall length
+ * Walls now extend lower to show there is no accommodation for mid-level notes on crouch walls.
+ * Slice sound timing adjusted(sorry quack mappers, not yet)
+ * Sort songs by Name/Time
+ * Search bar for song selection
+ * Autoupdater
+ * Companion plugin "MediocreLoader" to start songs within Beat Saber. Automatically installed from within editor. 
+ * Strobe lighting placement
+ * RGB events added for ChromaToggle, consult in-editor manual for keybinds
+ * More modes for ChromaToggle
+ * Ctrl+F now correctly listed as fake walls hotkey
+ * Editor scale works again
+ * Nice Environment looks like Nice Environment
+ * Esc opens menu in editor
+ * a bunch of other bug fixes, i don't keep a good log of this stuff so it's hard to remember. it's like a game, an easter egg hunt, go find stuff i forgot to say here.
+
 ## Features not included from EditSaberEnhanced
  * Preview event on \[V]
  * Drag select with \[N]/\[L]

@@ -1,0 +1,26 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.3",
+  "FriendlyName": "Socketer",
+  "Description": "A TCP networking blueprint library!",
+  "Category": "Networking",
+  "CreatedBy": "HowToCompute",
+  "CreatedByURL": "https://how2compute.cf",
+  "EngineVersion": "4.19.0",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": true,
+  "RequiresBuildPlatform": false,
+  "Modules": [
+    {
+      "Name": "Socketer",
+      "Type": "Runtime",
+      "LoadingPhase": "PreLoadingScreen",
+      "WhitelistPlatforms": [ "Win64", "Win32" ]
+    }
+  ]
+}
