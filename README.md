@@ -4,9 +4,18 @@ This is a fork of [EditSaberEnhanced by permissionBRICK](https://github.com/perm
 
 ## Next up:
  * Multiplayer
- * Bookmarks
  * BPM/Offset Tapper
  * Metronome
+
+## Update Mk2Rev1:
+ * Custom Events fixed
+ * Mirror Fixed
+ * Temporary/read only song loading added
+ * Copy-crash fixed
+ * note sorting fixed
+ * some other bugs fixed probably
+ * buggy bookmarks
+ * new bugs added
 
 ## Update Mk2:
  * Performance update: Number of notes/events/length of song no longer/lightly plays a role in performance

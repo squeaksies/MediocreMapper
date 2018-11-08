@@ -8,7 +8,7 @@ public class MediocreMapperTarget : TargetRules
 	public MediocreMapperTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-
-		ExtraModuleNames.AddRange( new string[] { "MediocreMapper" } );
+        
+        ExtraModuleNames.AddRange( new string[] { "MediocreMapper" } );
 	}
 }
