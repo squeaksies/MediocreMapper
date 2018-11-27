@@ -79,3 +79,9 @@ Releases/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Whitelist pre-compilied plugin oddities
+!Plugins/ZipUtility-ue4/ThirdParty/*/*/**
+!Plugins/ZipUtility-ue4/ThirdParty/*/**
+!Plugins/discordrpc/Source/ThirdParty/*/*/**
+!Plugins/discordrpc/SourceThirdParty/*/**
