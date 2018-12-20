@@ -204,7 +204,7 @@ void URenderWaveform::BP_RenderWaveform(USoundWave* InSoundWaveRef, UProceduralM
 	VertexColors.AddDefaulted(nbVert);
 	Tangents.Init(FProcMeshTangent(1.0f, 0.0f, 0.0f), nbVert);
 
-	for (size_t i = 0; i < 320; ++i){
+	for (size_t i = 0; i < 160; ++i){
 		float duration = (1 / 64.f);
 		float startTime = duration * i + InSongPosition;
 

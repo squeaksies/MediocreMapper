@@ -3,9 +3,29 @@
 This is a "fork" of [EditSaberEnhanced by permissionBRICK](https://github.com/permissionBRICK/EditSaberEnhanced) which is a "fork" of  [EditSaber by Ikeiwa](https://github.com/Ikeiwa/EditSaber). Previously assisting with EditSaberEnhanced, I made this mediocre thing as a set of feature additions on EditSaberEnanced.
 
 ## Next up:
- * Multiplayer
- * BPM/Offset Tapper
+ * Lightmap integration
+ * Variable division beats
  * Metronome
+ * Variable NJS
+ * BPM/Offset Tapper
+
+## Update Mk3
+ * Mediocre Mapper Multi-Mapper (multiplayer) (henceforth referred to as MMMM) 
+ * [Readme for MMMM server](https://github.com/squeaksies/MediocreMapper/blob/master/ServerReadme.md)
+ * Trackpad support
+ * Warnings for common file name/type errors
+ * Swap waveform to lighting track
+ * Open song folder button
+ * Copy-crash fixed (again)
+ * New slice sounds
+ * Middle-mouse now usable while song is being played
+ * MediocreLoader updated to Beat Saber version 0.12.1
+ * Waveform now 1/2 the length for performance reasons
+ * bookmarks now less buggy (kinda, some have reported not being able to interact with bookmarks)
+ * on that note, pressing [B] or creating a new bookmark while on top of one deletes it.
+ * backspace isn't retarded anymore
+ * some other bugs fixed probably
+ * I have like 10 real friends on snapchat, 20 followers on insta, and I strictly use my Facebook for telling randos to kill themselves. They all fucking love me, do the 300 friends you have on Facebook even message u? How many have you met irl? If its over 10 I guess you win.
 
 ## Update Mk2Rev1:
  * Custom Events fixed

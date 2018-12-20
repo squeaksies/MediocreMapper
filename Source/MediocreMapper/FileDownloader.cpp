@@ -53,6 +53,7 @@ void UFileDownloader::OnReady(FHttpRequestPtr Request, FHttpResponsePtr Response
 		FPaths::Split(FileSavePath, Path, Filename, Extension);
 		if (!PlatformFile.DirectoryExists(*Path))
 		{
+
 			if(!PlatformFile.CreateDirectoryTree(*Path))
 			{
 				OnResult.Broadcast(EDownloadResult::DirectoryCreationFailed);

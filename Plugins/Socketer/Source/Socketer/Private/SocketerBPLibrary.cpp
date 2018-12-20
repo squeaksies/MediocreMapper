@@ -24,8 +24,19 @@ USocket* USocketerBPLibrary::Connect(FString IP, int32 port, bool& success)
 	FIPv4Address ipv4ip;
 	FIPv4Address::Parse(IP, ipv4ip);
 
-	// Now combine that with the port to create the address
 	TSharedRef<FInternetAddr> SockAddr = ISocketSubsystem::Get(PLATFORM_SOCKETSUBSYSTEM)->CreateInternetAddr(ipv4ip.Value, port);
+
+	auto hostname = StringCast<ANSICHAR>(*IP);
+	ISocketSubsystem::Get(PLATFORM_SOCKETSUBSYSTEM)->GetHostByName(hostname.Get(), *SockAddr);
+	
+
+	//SockAddr = ISocketSubsystem::Get(PLATFORM_SOCKETSUBSYSTEM)->CreateInternetAddr(newIP, port);
+
+	
+
+
+	// Now combine that with the port to create the address
+	
 
 	// Attempt to connect, and store if it succeeded in a variable
 	bool connected = MySockTemp->Connect(*SockAddr);
@@ -33,7 +44,7 @@ USocket* USocketerBPLibrary::Connect(FString IP, int32 port, bool& success)
 	// Verify it is connected
 	if (!connected)
 	{
-		// And if not log an error and return an error
+		// And if not log an and return an error
 		UE_LOG(LogTemp, Error, TEXT("Could not connect"));
 		success = false;
 		return nullptr;
@@ -111,8 +122,7 @@ bool USocketerBPLibrary::GetMessage(USocket* Connection, FString &Message)
 	while (MySocket->HasPendingData(Size))
 	{
 		// Be sure that the array doesn't become absolutely insanely large
-		BinaryData.Init(0, FMath::Min(Size, 65507u));
-
+		BinaryData.Init(0, 10000000);
 		// Set the counter for the ammount of bytes read to 0
 		int32 Read = 0;
 		// Recieve the data from the socket and put it into the binary array
