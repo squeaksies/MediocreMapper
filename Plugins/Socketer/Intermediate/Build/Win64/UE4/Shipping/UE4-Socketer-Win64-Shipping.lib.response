@@ -3,7 +3,6 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /LTCG
-"E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4\Shipping\Socketer\SocketerBPLibrary.cpp.obj"
 "E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4\Shipping\Socketer\Module.Socketer.cpp.obj"
 "E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4\Shipping\Socketer\Module.Socketer.gen.cpp.obj"
 "E:\Documents\Unreal Projects\MediocreMapper\Intermediate\Build\Win64\UE4\Shipping\Socketer\PCLaunch.rc.res"
