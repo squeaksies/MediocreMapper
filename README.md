@@ -9,6 +9,11 @@ This is a "fork" of [EditSaberEnhanced by permissionBRICK](https://github.com/pe
  * Variable NJS
  * BPM/Offset Tapper
 
+## Update MC3Rev1:
+* Audio now stops playing if disconnected from MMMM server abruptly
+* Backups of difficulty .json files are made upon joining an MMMM server
+* Surprise for the 22nd to the 28th
+
 ## Update Mk3
  * Mediocre Mapper Multi-Mapper (multiplayer) (henceforth referred to as MMMM) 
  * [Readme for MMMM server](https://github.com/squeaksies/MediocreMapper/blob/master/ServerReadme.md)
