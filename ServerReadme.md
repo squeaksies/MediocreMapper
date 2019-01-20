@@ -1,8 +1,8 @@
 # Mediocre Mapper Multi-Mapper Server setup
 
 ## What you need to start
+ * the latest MMMM server files
  * install node.js from https://nodejs.org/en/
- * move your song into the /Songs/ directory
  * port forward a TCP port of your choosing. 17425 is default.
  * create a song in MediocreMapper and set up difficulties, offset and BPM
 
