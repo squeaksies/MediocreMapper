@@ -3,11 +3,55 @@
 This is a "fork" of [EditSaberEnhanced by permissionBRICK](https://github.com/permissionBRICK/EditSaberEnhanced) which is a "fork" of  [EditSaber by Ikeiwa](https://github.com/Ikeiwa/EditSaber). Previously assisting with EditSaberEnhanced, I made this mediocre thing as a set of feature additions on EditSaberEnanced.
 
 ## Next up:
- * Lightmap integration
- * Variable division beats
- * Metronome
- * Variable NJS
- * BPM/Offset Tapper
+ * BPM/Offset Tapper (maybe)
+ * Light track improvements
+ * Audio-based auto lighting
+ * secrets.
+ 
+## Update Mk4
+### New Stuff
+* **Lightmap** v2 integration
+* **Cat** mode. swirly eyed cats are dot notes. Comes with cat hit sounds
+* **Metronome** use BPM blocks to configure downbeat
+* **Bongo Cat** companion that tests your songs
+* **No lighting mode** so you can actually load giant event files
+* **Mapping Extensions** support, minus precision walls. But it's got 6 lane, precision placement and angles.
+* **Song Loader Fields** `contributors`, `noteJumpSpawnBeatOffset`, `requirements`, `suggestions`, `information`, `warnings`, `characteristics`, `customEnvironment`, `difficultyLabel`
+* **OSU Importer** place an .osz file in your song folder before loading the song to import BPM Changes
+* **Redo** it's on ctrl+shift+z, i didn't want ctrl+y
+* **Unlock Strobe/Laser Limits** note: i'll hate you forever if you press this
+* **Edit lock** it's like holding alt, but all the time. Mainly for mapping extensions
+* **BPM Overhaul** now adjustable placement to the millisecond and offers beat division modifiers
+* **Stacked Notes Detector** i don't even know how you people make these, but here's a detector
+* **Autosave Recovery** Now in editor
+* **Automatic Square Image** detector and corrector
+* **WIP Folder** Automatic swap over to WIP folder. If you had previously manually done this. you'll need to swap back to normal.
+
+### Fixes and improvements
+* **In place note editing** No more need to scroll to a note to move it. Alt+RMB
+* **Camera Speed** No longer tied to framerate
+* **Editor Settings** No longer only saves on song exit.
+* **Play and Revert** Hold space and let go. no need to press the stop button anymore.
+* **Bookmark Creation** No longer hijacks your cursor when you place them. Also esc cancels bookmarks now
+* **More Bookmark fixes** Bookmarks no longer get screwed on editor scale changes
+* **Milliseconds** now added to song time
+* **Selection counter** shows how many items are selected
+* **Copy-Paste** While song playing
+* **Strobes** now obey BPM and work while song is playing
+* **Stats Panel** will now either apply to the whole map, or selected notes/events
+* **Autoupdater** is now able to update itself. This is the last manual update.
+* **Wiping all your songs** should now no longer happen occasionally.
+* **Freeek** no longer haunts the bottom of your screen in portrait/square orientations
+
+
+### Other stuff, and bad things
+* **ChromaToggle/ChromaLite** support dropped. Still accessible via beta setting, but will not be maintained further.
+* **MediocreLoader** support dropped. use fpfc to explore your mapping in game. Will look into fixing this later, but it's broken for now.
+* **No more source updates** due to sensitive-ish code, the source will no longer be updated. 
+* **New Icon** since we're not ChromaToggle anymore, we have a new icon. All hail our cat eared overlords.
+* **Donation page** I have one now, bottom of settings.
+
+Now go find me some bugs. Also there's a bunch of stuff i probably left out. i don't log it well. 
 
 ## Update MC3Rev1:
 * Audio now stops playing if disconnected from MMMM server abruptly
