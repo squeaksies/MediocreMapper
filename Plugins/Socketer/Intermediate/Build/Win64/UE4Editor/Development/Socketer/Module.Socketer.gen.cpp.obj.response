@@ -23,11 +23,11 @@
 /wd4838
 /w44668
 /I D:\Games\UE_4.19\Engine\Source
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Source\Socketer\Private"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Source"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Source\Socketer\Public"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4Editor\Inc\Socketer"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Source\Socketer"
+/I C:\MediocreMapper\Plugins\Socketer\Source\Socketer\Private
+/I C:\MediocreMapper\Plugins\Socketer\Source
+/I C:\MediocreMapper\Plugins\Socketer\Source\Socketer\Public
+/I C:\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4Editor\Inc\Socketer
+/I C:\MediocreMapper\Plugins\Socketer\Source\Socketer
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core\Public
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Async
@@ -371,9 +371,9 @@
 /FI"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4Editor\Development\Socketer\Module.Socketer.gen.cpp"
-/FI"E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4Editor\Development\Socketer\Definitions.Socketer.h"
-/Fo"E:\Documents\Unreal Projects\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4Editor\Development\Socketer\Module.Socketer.gen.cpp.obj"
+"C:\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4Editor\Development\Socketer\Module.Socketer.gen.cpp"
+/FI"C:\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4Editor\Development\Socketer\Definitions.Socketer.h"
+/Fo"C:\MediocreMapper\Plugins\Socketer\Intermediate\Build\Win64\UE4Editor\Development\Socketer\Module.Socketer.gen.cpp.obj"
 /TP
 /GR-
 /W4

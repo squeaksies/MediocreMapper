@@ -26,15 +26,15 @@ DECLARE_LOG_CATEGORY_EXTERN(LogRenderWave, Log, All);
 
 DEFINE_LOG_CATEGORY(LogRenderWave);
 
-float GetFFTInValue(const int16 InSampleValue, const int16 InSampleIndex, const int16 InSampleCount)
-{
-	float FFTValue = InSampleValue;
-
-	// Apply the Hann window
-	FFTValue *= 0.5f * (1 - FMath::Cos(2 * PI * InSampleIndex / (InSampleCount - 1)));
-
-	return FFTValue;
-}
+//float GetFFTInValue(const int16 InSampleValue, const int16 InSampleIndex, const int16 InSampleCount)
+//{
+//	float FFTValue = InSampleValue;
+//
+//	// Apply the Hann window
+//	FFTValue *= 0.5f * (1 - FMath::Cos(2 * PI * InSampleIndex / (InSampleCount - 1)));
+//
+//	return FFTValue;
+//}
 
 void CalculateFrequencySpectrum(USoundWave* InSoundWaveRef, const float InStartTime, const float InDuration, TArray<float>& OutFrequencies)
 {

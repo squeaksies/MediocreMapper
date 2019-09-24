@@ -209,10 +209,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "AudioCapture",
-			"Enabled": false
-		},
-		{
 			"Name": "CryptoKeys",
 			"Enabled": false
 		},
@@ -284,6 +280,14 @@
 		{
 			"Name": "VictoryUMG",
 			"Enabled": true
+		},
+		{
+			"Name": "SoundVisualizations",
+			"Enabled": true
+		},
+		{
+			"Name": "WindowsMessageHandlerExample",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [

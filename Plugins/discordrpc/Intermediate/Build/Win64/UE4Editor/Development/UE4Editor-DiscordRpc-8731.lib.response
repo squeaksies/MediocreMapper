@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DiscordRpc-8731.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\Module.DiscordRpc.cpp.obj"
+"C:\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\Module.DiscordRpc.gen.cpp.obj"
+"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\PCLaunch.rc.res"
+"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DiscordRpc-8731.lib"

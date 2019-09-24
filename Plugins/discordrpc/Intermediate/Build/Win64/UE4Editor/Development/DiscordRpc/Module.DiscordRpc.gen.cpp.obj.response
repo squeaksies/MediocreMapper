@@ -23,12 +23,12 @@
 /wd4838
 /w44668
 /I D:\Games\UE_4.19\Engine\Source
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Source\DiscordRpc\Private"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Source\ThirdParty\DiscordRpcLibrary\Include"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Source"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Source\DiscordRpc\Public"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Inc\DiscordRpc"
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Source\DiscordRpc"
+/I C:\MediocreMapper\Plugins\discordrpc\Source\DiscordRpc\Private
+/I C:\MediocreMapper\Plugins\discordrpc\Source\ThirdParty\DiscordRpcLibrary\Include
+/I C:\MediocreMapper\Plugins\discordrpc\Source
+/I C:\MediocreMapper\Plugins\discordrpc\Source\DiscordRpc\Public
+/I C:\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Inc\DiscordRpc
+/I C:\MediocreMapper\Plugins\discordrpc\Source\DiscordRpc
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core\Public
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Async
@@ -49,7 +49,7 @@
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\UObject
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Windows
 /I D:\Games\UE_4.19\Engine\Source\Runtime\Core
-/I "E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Source\ThirdParty\DiscordRpcLibrary"
+/I C:\MediocreMapper\Plugins\discordrpc\Source\ThirdParty\DiscordRpcLibrary
 /I D:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public
 /I D:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Blueprint
 /I D:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Internationalization
@@ -367,9 +367,9 @@
 /FI"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\Module.DiscordRpc.gen.cpp"
-/FI"E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\Definitions.DiscordRpc.h"
-/Fo"E:\Documents\Unreal Projects\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\Module.DiscordRpc.gen.cpp.obj"
+"C:\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\Module.DiscordRpc.gen.cpp"
+/FI"C:\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\Definitions.DiscordRpc.h"
+/Fo"C:\MediocreMapper\Plugins\discordrpc\Intermediate\Build\Win64\UE4Editor\Development\DiscordRpc\Module.DiscordRpc.gen.cpp.obj"
 /TP
 /GR-
 /W4

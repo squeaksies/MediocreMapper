@@ -9,7 +9,7 @@ using UnrealBuildTool;
 
 public class VictoryUMG : ModuleRules
 {
-	public VictoryUMG(ReadOnlyTargetRules Target) : base(Target)
+    public VictoryUMG(ReadOnlyTargetRules Target) : base(Target)
 	{
         PublicDependencyModuleNames.AddRange(
 			new string[] { 
@@ -17,16 +17,16 @@ public class VictoryUMG : ModuleRules
 				"CoreUObject", 
 				"Engine", 
 				"InputCore",
-				
 				"RHI",
-				"RenderCore",
-				 
-				"UMG", "Slate", "SlateCore", 
-                
+				"RenderCore",		 
+				"UMG", 
+				"Slate", 
+				"SlateCore", 
                 "APPFRAMEWORK" //for color picker! -Rama
 		
 			}
 		);
+		
 		//Private Paths
         PrivateIncludePaths.AddRange(new string[] { 
 			"VictoryUMG/Public",

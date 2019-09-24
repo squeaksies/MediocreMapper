@@ -16,7 +16,6 @@ enum class EDownloadResult : uint8
 	SaveFailed,
 	DirectoryCreationFailed
 };
-
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnResult, const EDownloadResult, Result);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnProgress, const int32, BytesSent, const int32, BytesReceived, const int32, ContentLength);
 

@@ -14,8 +14,9 @@ FLinearColor UColorConverter::InttoColor(int color)
 {
 	color = color - 2000000000;
 	FLinearColor outColor;
-	outColor.B = (float)(color & 0xFF)/0xFE;
-	outColor.G = (float)(color >> 8 & 0xFF)/0xFE;
-	outColor.R = (float)(color >> 16 & 0xFF)/0xFE;
+	outColor.B = (float)(color & 0xFF)/0xFF;
+	outColor.G = (float)(color >> 8 & 0xFF)/0xFF;
+	outColor.R = (float)(color >> 16 & 0xFF)/0xFF;
+	outColor.A = 1;
 	return outColor;
 }
